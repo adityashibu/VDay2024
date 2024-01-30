@@ -260,7 +260,7 @@ body {
   transform-origin: right;
   transform: rotate(-70deg) rotateY(30deg) scale(0.6);
 }
-.flower__light {
+.flower__light1 {
   position: absolute;
   bottom: 0vmin;
   width: 1vmin;
@@ -270,7 +270,33 @@ body {
   filter: blur(0.2vmin);
   animation: light-ans 4s linear infinite backwards;
 }
-.flower__light:nth-child(odd) {
+.flower__light2 {
+  position: absolute;
+  bottom: 0vmin;
+  width: 1vmin;
+  height: 1vmin;
+  background-color: #ff3c00;
+  border-radius: 50%;
+  filter: blur(0.2vmin);
+  animation: light-ans 4s linear infinite backwards;
+}
+.flower__light3 {
+  position: absolute;
+  bottom: 0vmin;
+  width: 1vmin;
+  height: 1vmin;
+  background-color: #ffee00;
+  border-radius: 50%;
+  filter: blur(0.2vmin);
+  animation: light-ans 4s linear infinite backwards;
+}
+.flower__light1:nth-child(odd) {
+  background-color: #23f0ff;
+}
+.flower__light2:nth-child(odd) {
+  background-color: #23f0ff;
+}
+.flower__light3:nth-child(odd) {
   background-color: #23f0ff;
 }
 .flower__light--1 {
