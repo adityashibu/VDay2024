@@ -1079,3 +1079,27 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     color: white;
   }
 }
+@media (orientation: portait) and (max-width: 768px) {
+  .glowingText {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    color: white;
+  }
+  .glowingText2 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    color: white;
+  }
+}
+@media (orientation: landscape) and (max-width: 768px) {
+  .glowingText {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    color: white;
+  }
+  .glowingText2 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    color: white;
+  }
+}
