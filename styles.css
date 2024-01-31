@@ -1078,7 +1078,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     color: white;
   }
 }
-@media (orientation: portrait) {
+@media (orientation: landscape) {
   .glowingText {
     font-size: 1rem;
     font-weight: bold;
