@@ -296,7 +296,7 @@ body {
 .flower__light2:nth-child(odd) {
   background-color: #23f0ff;
 }
-.flower__light3:nth-child(odd) {
+.flower__light:nth-child(odd) {
   background-color: #23f0ff;
 }
 .flower__light--1 {
@@ -1035,4 +1035,11 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 }
 .not-loaded * {
   animation-play-state: paused !important;
+}
+.glowingText {
+  z-index: 100; /* or any number higher than the z-index of the overlapping elements */
+  font-family: 'Pacifico', cursive;
+  color: #ffffff;
+  padding-top: 10%;
+  font-size: 5rem;
 }
