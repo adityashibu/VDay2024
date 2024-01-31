@@ -1041,5 +1041,17 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   font-family: 'Pacifico', cursive;
   color: #ffffff;
   padding-top: 10%;
-  font-size: 5rem;
+  font-size: 3rem;
+  overflow: hidden; /* Ensures the text is initially hidden */
+  white-space: nowrap; /* Ensures the text doesn't wrap to the next line */
+  opacity: 0;
+}
+.typing-animation {
+  width: 0;
+  animation: typewriter 3s steps(40) 1s forwards;
+}
+@keyframes typewriter {
+  to {
+    width: 100%;
+  }
 }
