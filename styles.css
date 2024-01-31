@@ -1068,12 +1068,12 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 }
 @media screen and (max-width: 768px) {
   .glowingText {
-    font-size: 2rem; /* Adjust font size for smaller screens */
-    font-weight: bold;
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
     color: white;
   }
   .glowingText2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
+    font-weight: bold;
   }
 }
