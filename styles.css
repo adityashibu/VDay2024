@@ -1042,7 +1042,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   font-family: 'Pacifico', cursive;
   color: #ffffff;
   padding-top: 10%;
-  font-size: 2rem;
+  font-size: 3rem;
   opacity: 0; /* Initially hide the text */
   animation: flyIn 1.5s forwards ease-out; /* Animation duration, timing function, and fill mode */
 }
