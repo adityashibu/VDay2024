@@ -1042,6 +1042,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   font-family: 'Pacifico', cursive;
   background: linear-gradient(45deg, #ae8625, #f7ef8a, #d2ac47, #edc967);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   padding-top: 5%;
   font-size: 2rem;
@@ -1054,6 +1055,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   font-family: 'Pacifico', cursive;
   background: linear-gradient(45deg, #ae8625, #f7ef8a, #d2ac47, #edc967);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   margin-top: 0%;
   font-size: 3rem;
@@ -1076,12 +1078,14 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     font-size: 1.5rem; /* Adjust font size for smaller screens */
     background: linear-gradient(45deg, #ae8625, #f7ef8a, #d2ac47, #edc967);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
   }
   .glowingText2 {
     font-size: 2rem;
     background: linear-gradient(45deg, #ae8625, #f7ef8a, #d2ac47, #edc967);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-weight: bold;
   }
