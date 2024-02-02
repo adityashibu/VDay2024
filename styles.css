@@ -1040,7 +1040,9 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   position: relative;
   z-index: 100;
   font-family: 'Pacifico', cursive;
-  color: #ffffff;
+  background: linear-gradient(45deg, #ae8625, #f7ef8a, #d2ac47, #edc967);
+  -webkit-background-clip: text;
+  color: transparent;
   padding-top: 5%;
   font-size: 2rem;
   opacity: 0; /* Initially hide the text */
@@ -1050,7 +1052,9 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   position: relative;
   z-index: 100;
   font-family: 'Pacifico', cursive;
-  color: #ffffff;
+  background: linear-gradient(45deg, #ae8625, #f7ef8a, #d2ac47, #edc967);
+  -webkit-background-clip: text;
+  color: transparent;
   margin-top: 0%;
   font-size: 3rem;
   opacity: 0; /* Initially hide the text */
@@ -1070,11 +1074,15 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 @media screen and (max-width: 768px) {
   .glowingText {
     font-size: 1.5rem; /* Adjust font size for smaller screens */
-    color: white;
+    background: linear-gradient(45deg, #ae8625, #f7ef8a, #d2ac47, #edc967);
+    -webkit-background-clip: text;
+    color: transparent;
   }
   .glowingText2 {
     font-size: 2rem;
-    color: white;
+    background: linear-gradient(45deg, #ae8625, #f7ef8a, #d2ac47, #edc967);
+    -webkit-background-clip: text;
+    color: transparent;
     font-weight: bold;
   }
 }
